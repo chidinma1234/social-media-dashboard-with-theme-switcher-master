@@ -46,7 +46,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 5.5em;
+  padding: 2em;
   color: var(--text-color);
 }
 
@@ -257,6 +257,9 @@ body {
 }
 /* media queries */
 @media (min-width: 760px) {
+  .container {
+    padding: 7em;
+  }
   /* top container */
   .top_container {
     display: flex;
